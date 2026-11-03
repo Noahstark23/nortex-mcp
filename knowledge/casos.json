@@ -1,0 +1,102 @@
+{
+  "descripcion": "Casos reales verificados contra el código del monolito nortex.20. Editable: cada caso nuevo DEBE citar los archivos donde se verificó y la fecha. Si el código cambia, se re-verifica antes de tocar la respuesta. Nunca agregar un caso sin verificar.",
+  "verificadoContra": "nortex.20 origin/main @ 5e1939b (2026-10-16)",
+  "casos": [
+    {
+      "id": "empaque-caja-unidad",
+      "titulo": "Vender el mismo producto por caja y por unidad (empaque)",
+      "preguntas": [
+        "¿Puedo vender el mismo producto por caja y por unidad?",
+        "¿Cómo vendo por caja y por unidad?",
+        "Quiero vender por fardo y suelto"
+      ],
+      "keywords": ["caja", "cajas", "unidad", "unidades", "empaque", "empaques", "fardo", "docena", "suelto", "presentación", "vender", "vendo", "mismo", "producto"],
+      "respuesta": "Sí. Creás el producto UNA vez, en su unidad base, y le configurás el empaque:\n1. En Mis Productos abrí el producto (o creá uno nuevo) y llená Empaque (ej.: caja), Unid. por empaque (ej.: 12) y, si querés, Precio empaque. Si dejás Precio empaque vacío, la caja es solo un atajo de cantidad y se cobra al precio por unidad.\n2. En el POS agregás el producto como siempre (entra una unidad) y en la línea del ticket tocás el botón «+1 CAJA (12)» para sumar una caja entera.\n3. El stock se lleva siempre en unidades: vender una caja de 12 descuenta 12 unidades. El Precio empaque solo aplica a la línea de caja, no por llevar 12 unidades sueltas.",
+      "verificacion": {
+        "fecha": "2026-10-17",
+        "archivos": [
+          "backend/prisma/schema.prisma (Product.packUnit/packSize/packPrice: \"El POS vende el empaque como atajo de cantidad (unidades base)... El stock/Kardex siguen en unidades base\")",
+          "components/Inventory.tsx (campos Empaque / Unid. por empaque / Precio empaque, placeholder \"Vacío = solo atajo\")",
+          "components/POS.tsx (addPackToCart; botón \"+1 {PACKUNIT} ({packSize})\" en la línea del ticket)",
+          "utils/pricing.ts (el precio de empaque requiere presentación PACK explícita, no nace por umbral)"
+        ]
+      }
+    },
+    {
+      "id": "codigo-barras-unico",
+      "titulo": "La caja y la unidad traen códigos de barras distintos",
+      "preguntas": [
+        "La caja trae un código de barras y la unidad otro, ¿cómo hago?",
+        "¿Puedo poner dos códigos de barras al mismo producto?",
+        "Al escanear la caja no la encuentra"
+      ],
+      "keywords": ["código", "códigos", "barras", "escanear", "escaneo", "escaneo", "sku", "caja", "unidad", "dos", "distinto", "lector", "pistola"],
+      "respuesta": "Cada producto tiene UN solo código (SKU) en Nortex, y no puede repetirse en tu negocio. Hacelo así:\n1. Guardá en el producto el código de barras de la UNIDAD (el campo Código o código de barras de la ficha).\n2. Configurá el empaque (Empaque: caja, Unid. por empaque: 12).\n3. En el POS escaneás la unidad: el escaneo busca ese código exacto y agrega una unidad. Para vender la caja, tocá «+1 CAJA» en la línea del ticket.\nEl código de la caja no se registra aparte: si lo escaneás, el POS no lo reconoce como producto.",
+      "verificacion": {
+        "fecha": "2026-10-17",
+        "archivos": [
+          "backend/prisma/schema.prisma (Product.sku \"Código único del producto\", @@unique([tenantId, sku]); no hay modelo de códigos alternos)",
+          "components/POS.tsx (handleBarcodeScan: products.find(sku === código) -> addToCart (una unidad); si no hay match: \"SKU ... no encontrado\")"
+        ]
+      }
+    },
+    {
+      "id": "regalias-ajuste-inventario",
+      "titulo": "Registrar regalías (producto regalado o recibido de regalía)",
+      "preguntas": [
+        "¿Cómo registro regalías?",
+        "Le regalé un producto a un cliente, ¿cómo lo saco del inventario?",
+        "El proveedor me dio producto de regalía, ¿cómo lo meto?"
+      ],
+      "keywords": ["regalía", "regalías", "regalia", "regalias", "regalo", "regalé", "regalar", "obsequio", "bonificación", "gratis", "ajuste", "ajustar", "inventario", "existencias", "registrar"],
+      "respuesta": "Las regalías se registran con un ajuste de inventario, con su justificación:\n1. En Mis Productos, en las acciones del producto, tocá «Registrar pérdida o sobrante» (se abre Ajustar existencias).\n2. Elegí la bodega y el tipo: «Pérdida / Merma» si regalaste producto (sale del inventario) o «Ganancia / Hallazgo» si te llegó producto de regalía (entra al inventario).\n3. Poné la cantidad y en Justificación escribí que es una regalía (ej.: «Regalía a cliente»). Queda en el Kardex con tu usuario.\nSi el producto controla lotes, el ajuste general no aplica: la entrada o la merma se registran desde sus lotes.",
+      "verificacion": {
+        "fecha": "2026-10-17",
+        "archivos": [
+          "components/Inventory.tsx (acción \"Registrar pérdida o sobrante\" -> modal \"Ajustar existencias\"; tipos ADJUST_LOSS \"Pérdida / Merma\" y ADJUST_GAIN \"Ganancia / Hallazgo\"; Justificación obligatoria, mínimo 3 caracteres)",
+          "backend/services/inventoryAdjustmentService.ts (BATCH_SELECTION_REQUIRED: productos con lote se ajustan desde sus lotes)"
+        ]
+      }
+    },
+    {
+      "id": "lotes-vencidos-fefo",
+      "titulo": "El POS rechaza la venta de un producto con lotes",
+      "preguntas": [
+        "El POS me rechaza una venta de carne con lotes",
+        "Me dice lotes vigentes insuficientes",
+        "No me deja vender un producto con vencimiento"
+      ],
+      "keywords": ["lote", "lotes", "vencimiento", "vencido", "vencidos", "vence", "vigente", "vigentes", "insuficientes", "rechaza", "rechazo", "deja", "fefo", "carne", "lácteos", "medicamentos", "perecedero", "perecederos"],
+      "respuesta": "Cuando un producto controla lotes, el POS solo vende de lotes vigentes: lotes con existencia y con vencimiento de hoy en adelante, empezando por el que vence primero (FEFO). Si los lotes vigentes no alcanzan para la cantidad, rechaza la venta con «Lotes vigentes insuficientes».\nQué revisar:\n1. En Mis Productos abrí «Lotes y vencimientos» del producto: si el stock que ves está en lotes ya vencidos, eso no se puede vender.\n2. Si te llegó producto nuevo, registralo con su Nº Lote y Vencimiento (al comprar, Nortex exige lote y fecha en estos productos).\n3. Lo vencido sacalo con «Dar de baja» en el lote (queda como merma).",
+      "verificacion": {
+        "fecha": "2026-10-17",
+        "archivos": [
+          "backend/services/saleBatchAllocationService.ts (lotes con stock > 0 y expiryDate >= hoy Managua, orden por vencimiento asc; INSUFFICIENT_ACTIVE_BATCH_STOCK \"Lotes vigentes insuficientes\")",
+          "utils/batchExpiry.ts (batchExpiryDayStart: el día de vencimiento cuenta como vigente)",
+          "components/Inventory.tsx (acción \"Lotes y vencimientos\", campos Nº Lote / Vencimiento, botón \"Dar de baja\" = merma)",
+          "backend/services/purchaseRegistrationPreparation.ts (LOTE_REQUERIDO al comprar productos con control de lote)"
+        ]
+      }
+    },
+    {
+      "id": "anulacion-unipersonal",
+      "titulo": "Anular o devolver una venta si trabajás solo (aprobación)",
+      "preguntas": [
+        "¿Cómo anulo una venta si soy el único usuario?",
+        "No puedo aprobar mi propia devolución",
+        "¿Quién aprueba las anulaciones?"
+      ],
+      "keywords": ["anular", "anulo", "anulación", "anulaciones", "devolución", "devoluciones", "devolver", "aprobar", "aprobación", "aprobaciones", "autoaprobar", "propia", "solo", "único", "unipersonal", "dueño", "gerente", "manager"],
+      "respuesta": "Las devoluciones y anulaciones se piden en Ventas y Devoluciones y las aprueba el dueño, un administrador o un gerente con su correo y contraseña (pestaña Aprobaciones).\nOjo, limitación conocida: aprobar tu propia solicitud tiene restricciones (por ejemplo, si hay otro aprobador activo, el dueño no puede autoaprobarse). Si te bloquea, el camino que funciona hoy es tener un segundo usuario con rol de gerente (MANAGER) en Mi Equipo y que esa persona apruebe la solicitud.",
+      "limitacionConocida": true,
+      "verificacion": {
+        "fecha": "2026-10-17",
+        "archivos": [
+          "backend/routes/saleCorrections.ts (/sale-corrections/:id/approve: SELF_APPROVAL_NOT_ALLOWED; el OWNER no puede autoaprobar si hay otro aprobador activo)",
+          "backend/lib/saleCorrections.ts (CORRECTION_APPROVAL_ROLES = OWNER, ADMIN, MANAGER)"
+        ],
+        "nota": "Limitación conocida reportada por el equipo; sin fecha de fix comprometida. No prometer fechas."
+      }
+    }
+  ]
+}

@@ -1,0 +1,945 @@
+{
+  "source": {
+    "title": "Manual de Usuario — Nortex",
+    "edition": "Septiembre 2026",
+    "file": "Manual-de-Usuario-Nortex.pdf",
+    "sha256": "57355cdee3d9a61cce4fa36a47f54177d71c90bf5815580bad8773243981bba3"
+  },
+  "chapters": [
+    {
+      "n": 1,
+      "title": "Bienvenido a Nortex"
+    },
+    {
+      "n": 2,
+      "title": "Primeros pasos: entrar y moverte en la app"
+    },
+    {
+      "n": 3,
+      "title": "Vender: el punto de venta (POS)"
+    },
+    {
+      "n": 4,
+      "title": "Ventas y Devoluciones"
+    },
+    {
+      "n": 5,
+      "title": "Inventario: Mis Productos"
+    },
+    {
+      "n": 6,
+      "title": "Bodegas"
+    },
+    {
+      "n": 7,
+      "title": "Balanzas y Etiquetas"
+    },
+    {
+      "n": 8,
+      "title": "Clientes"
+    },
+    {
+      "n": 9,
+      "title": "Fiado y Cobros"
+    },
+    {
+      "n": 10,
+      "title": "Mi Plata y facturación DGI"
+    },
+    {
+      "n": 11,
+      "title": "Caja y Arqueos"
+    },
+    {
+      "n": 12,
+      "title": "Proformas, Entregas y Conteo de productos"
+    },
+    {
+      "n": 13,
+      "title": "Compras, Órdenes y Proveedores"
+    },
+    {
+      "n": 14,
+      "title": "Contabilidad: tu contador en casa"
+    },
+    {
+      "n": 15,
+      "title": "Salud Financiera y Reportes"
+    },
+    {
+      "n": 16,
+      "title": "Recursos Humanos: tu departamento de personal en casa"
+    },
+    {
+      "n": 17,
+      "title": "Mi Espacio y Mi Equipo"
+    },
+    {
+      "n": 18,
+      "title": "Auditoría"
+    },
+    {
+      "n": 19,
+      "title": "Mi Plan de Nortex"
+    },
+    {
+      "n": 20,
+      "title": "Atajos de teclado y glosario"
+    }
+  ],
+  "segments": [
+    {
+      "id": "manual:c01:s01",
+      "chapter": 1,
+      "chapterTitle": "Bienvenido a Nortex",
+      "section": null,
+      "page": 3,
+      "figures": [],
+      "text": "Nortex es el sistema de gestión para tu negocio en Nicaragua: vendés desde el punto de venta (POS), controlás el inventario por bodegas, llevás el fiado y la cobranza, registrás compras a proveedores, calculás la nómina según las leyes nicaragüenses y generás tu contabilidad con facturación DGI. Todo en un solo lugar, desde tu computadora o tu celular. Este manual te lleva módulo por módulo, en el orden en que usás la app en un día normal: vender, controlar el stock, atender a tus clientes, cuidar el dinero y revisar tus números. Cada sección incluye capturas reales de la aplicación para que reconozcas cada pantalla. Cómo leer este manual: está escrito en voseo, como hablás todos los días. Cuando veás una captura, comparala con tu pantalla: los botones y los nombres son los mismos que vas a encontrar en tu cuenta."
+    },
+    {
+      "id": "manual:c02:s01",
+      "chapter": 2,
+      "chapterTitle": "Primeros pasos: entrar y moverte en la app",
+      "section": "Entrar a tu cuenta",
+      "page": 4,
+      "figures": [
+        {
+          "n": 1,
+          "caption": "Mi Negocio: tu punto de partida cada día. Desde acá saltás a vender, cobrar fiado, agregar productos o ver cómo va tu plata."
+        }
+      ],
+      "text": "Abrí somosnortex.com e iniciá sesión con tu correo y tu contraseña. Al entrar llegás a Mi Negocio, tu panel de inicio, que te saluda con el nombre de tu empresa y te muestra accesos directos a lo más usado del día."
+    },
+    {
+      "id": "manual:c02:s02",
+      "chapter": 2,
+      "chapterTitle": "Primeros pasos: entrar y moverte en la app",
+      "section": "El menú lateral",
+      "page": 4,
+      "figures": [],
+      "text": "A la izquierda tenés el menú organizado por secciones: VENDER: Mi Negocio, Vender, Ventas y Devoluciones STOCK: Mis Productos, Bodegas, Balanzas y Etiquetas CLIENTES: Fiado y Cobros, Clientes DINERO: Mi Plata Más opciones: Caja y Arqueos, Proformas, Entregas, Contar Productos, Compras, Órdenes de compra, Compras Inteligentes, Proveedores, Salud Financiera, Contabilidad, Reportes, Mi Espacio, Mi Equipo, Mi Personal, Auditoría y Mi Plan de Nortex\nOpciones útiles del encabezado\nModo noche: cambia la apariencia a tema oscuro, ideal si trabajás de noche o con poca luz. Menú simple / Ver menú completo: alterná entre una vista resumida y la lista completa de módulos. Avisos: notificaciones importantes de tu negocio. Marcar entrada / salida: registrá tu jornada laboral con un toque. Ayuda y Cerrar sesión están siempre al final del menú. Practicá sin miedo: desde Mi Negocio tenés la opción \"Practicar sin guardar datos\" para ensayar ventas y movimientos sin afectar tus números reales."
+    },
+    {
+      "id": "manual:c03:s01",
+      "chapter": 3,
+      "chapterTitle": "Vender: el punto de venta (POS)",
+      "section": null,
+      "page": 6,
+      "figures": [
+        {
+          "n": 2,
+          "caption": "La pantalla de venta: buscador arriba, productos por categoría al centro y el ticket a la derecha."
+        }
+      ],
+      "text": "El POS es donde pasa la magia: buscás el producto, lo agregás al ticket y cobrás. Está diseñado para ser rápido incluso con fila de clientes."
+    },
+    {
+      "id": "manual:c03:s02",
+      "chapter": 3,
+      "chapterTitle": "Vender: el punto de venta (POS)",
+      "section": "Armar el ticket",
+      "page": 6,
+      "figures": [
+        {
+          "n": 3,
+          "caption": "Ticket armado: 1 unidad de Arroz (libra), total C$ 18.00. Abajo, el botón verde para cobrar en efectivo y la opción \"Otro pago\"."
+        }
+      ],
+      "text": "1. Buscá el producto escribiendo su nombre en \"Buscá por nombre o escaneá un código\", o tocá el botón Cámara para escanear el código de barras con tu dispositivo.\n2. Filtrá por categoría (Abarrotes, Bebidas, Granos básicos, Varios, Snacks, Perecederos, Limpieza) o quedate en Todos.\n3. Agregá al ticket tocando el + de la tarjeta del producto. Cada tarjeta muestra el SKU, el precio y cuántas unidades tenés en existencia.\n4. En el panel Venta actual (derecha) ajustá cantidades con − y +, o eliminá el producto con el ícono de papelera. Si el cliente se va y vuelve, usá Aparcar para guardar el ticket y atender al siguiente."
+    },
+    {
+      "id": "manual:c03:s03",
+      "chapter": 3,
+      "chapterTitle": "Vender: el punto de venta (POS)",
+      "section": "Cobrar en efectivo",
+      "page": 7,
+      "figures": [
+        {
+          "n": 4,
+          "caption": "Cobro en efectivo: montos rápidos y campo para el monto recibido. Confirmás el vuelto antes de registrar."
+        }
+      ],
+      "text": "1. Tocá el botón verde \"Cobrar C$ 18.00 en efectivo\" (o presioná F9 ).\n2. Se abre el panel Efectivo recibido: elegí un monto rápido (Monto exacto, C$ 20, C$ 50, C$ 100) o escribí lo que te entregó el cliente. La app te calcula el vuelto.\n3. Confirmá con \"Registrar efectivo y seguir\"."
+    },
+    {
+      "id": "manual:c03:s04",
+      "chapter": 3,
+      "chapterTitle": "Vender: el punto de venta (POS)",
+      "section": "La confirmación: \"Venta lista\"",
+      "page": 8,
+      "figures": [
+        {
+          "n": 5,
+          "caption": "Venta lista: comprobante de una venta en efectivo de C$ 18.00. La app además te motiva con tu racha de días vendiendo."
+        }
+      ],
+      "text": "Al registrar el cobro aparece el comprobante Venta lista con el cliente, el método de pago, el total cobrado y el acumulado del día (\"HOY LLEVÁS\"). Desde acá podés: WhatsApp: enviar el comprobante al cliente. Ticket 80 mm: imprimir el ticket para impresora térmica. Ver factura A4: abrir la factura en tamaño carta. Hacer otra venta: volver al POS con el ticket limpio."
+    },
+    {
+      "id": "manual:c03:s05",
+      "chapter": 3,
+      "chapterTitle": "Vender: el punto de venta (POS)",
+      "section": "Otros medios de pago",
+      "page": 9,
+      "figures": [
+        {
+          "n": 6,
+          "caption": "Otros medios de pago: transferencia, tarjeta o fiado."
+        }
+      ],
+      "text": "Si el cliente no paga en efectivo, tocá \"Otro pago\" bajo el botón verde. Se abre el panel de Otros medios de pago con tres opciones: Registrar transferencia: para pagos por transferencia bancaria. Registrar tarjeta: para pagos con tarjeta. Fiado · elegir cliente: para vender a crédito (ver sección 3.4)."
+    },
+    {
+      "id": "manual:c03:s06",
+      "chapter": 3,
+      "chapterTitle": "Vender: el punto de venta (POS)",
+      "section": "Vender al fiado",
+      "page": 10,
+      "figures": [
+        {
+          "n": 7,
+          "caption": "Fiado: cliente seleccionado con su límite y deuda visibles antes de confirmar."
+        },
+        {
+          "n": 8,
+          "caption": "Venta al crédito confirmada: Cliente Prueba, Método Crédito, C$ 40.00. Esa venta ya aparece en Fiado y Cobros como cuenta por cobrar."
+        }
+      ],
+      "text": "El fiado queda registrado como cuenta por cobrar a nombre del cliente, con su límite de crédito como respaldo.\n1. Armá el ticket como siempre y tocá \"Otro pago\".\n2. Elegí \"Fiado · elegir cliente\".\n3. Buscá al cliente por nombre y seleccionalo. Vas a ver su límite de crédito y su deuda actual antes de confirmar.\n4. Confirmá la venta. El comprobante Venta lista muestra Método: Crédito y el nombre del cliente.\nAtajos del POS: F9 cobra en efectivo, F2 o ENTER guardan formularios. Vas a ver los atajos indicados en los mismos botones."
+    },
+    {
+      "id": "manual:c04:s01",
+      "chapter": 4,
+      "chapterTitle": "Ventas y Devoluciones",
+      "section": null,
+      "page": 13,
+      "figures": [
+        {
+          "n": 9,
+          "caption": "Ventas y Devoluciones: tres pestañas para controlar todo lo vendido."
+        }
+      ],
+      "text": "Acá está el historial de todo lo que vendiste. La pantalla te lo dice claro: \"Buscá comprobantes, devolvé productos o anulá errores sin borrar el historial.\""
+    },
+    {
+      "id": "manual:c04:s02",
+      "chapter": 4,
+      "chapterTitle": "Ventas y Devoluciones",
+      "section": "Las tres pestañas",
+      "page": 13,
+      "figures": [
+        {
+          "n": 10,
+          "caption": "Aprobaciones: las acciones sensibles se autorizan con las credenciales del gerente o dueño."
+        }
+      ],
+      "text": "Historial de ventas: todas tus ventas con su comprobante. Podés buscar por producto, cliente o fecha, y gestionar devoluciones. Aprobaciones: las devoluciones o anulaciones sensibles requieren la aprobación del gerente o dueño: se ingresa su correo y su contraseña para aprobar. Así nadie borra ventas sin permiso. Pendientes: movimientos que quedaron a medio camino y necesitan cerrarse.\nRegla de oro: en Nortex nada se borra del historial. Los errores se corrigen con devoluciones o anulaciones autorizadas, y todo queda registrado para tu contabilidad y para la DGI."
+    },
+    {
+      "id": "manual:c05:s01",
+      "chapter": 5,
+      "chapterTitle": "Inventario: Mis Productos",
+      "section": null,
+      "page": 15,
+      "figures": [
+        {
+          "n": 11,
+          "caption": "Mis Productos: tu catálogo con filtros para ver todo, lo que hay que reponer y lo agotado."
+        }
+      ],
+      "text": "Tu catálogo completo: cada producto con su precio, su costo, su código y sus existencias. Desde acá creás productos nuevos y controlás qué se está acabando."
+    },
+    {
+      "id": "manual:c05:s02",
+      "chapter": 5,
+      "chapterTitle": "Inventario: Mis Productos",
+      "section": "Filtros rápidos",
+      "page": 15,
+      "figures": [],
+      "text": "Todos: el catálogo completo. Por reponer: productos que están llegando a su mínimo: es tu lista de compras sugerida. Agotados: productos en cero: atendelos primero para no perder ventas."
+    },
+    {
+      "id": "manual:c05:s03",
+      "chapter": 5,
+      "chapterTitle": "Inventario: Mis Productos",
+      "section": "Crear un producto nuevo",
+      "page": 15,
+      "figures": [
+        {
+          "n": 12,
+          "caption": "Nuevo producto: identificalo y definí cómo lo vendés. Los campos con * son obligatorios."
+        }
+      ],
+      "text": "Tocá Nuevo producto (también disponible con la Cámara para escanear el código de barras directo del empaque) y completá la ficha:\n1. Nombre del producto (obligatorio): como lo conocen tus clientes. Ej.: \"Martillo 16oz\".\n2. Marca (opcional): Ej.: \"Truper\".\n3. Código o código de barras (obligatorio): el número del empaque o uno que generés vos.\n4. Precio de venta (C$) (obligatorio): a cuánto lo vendés.\n5. ¿Cómo se vende? y Unidad de venta: definí si se vende por unidades enteras, por peso, etc.\n6. Abrí Más opciones para el costo, la categoría y las existencias iniciales.\n7. Guardá con el botón verde \"Guardar (F2 o ENTER)\". Si vas a cargar varios seguidos, marcá \"Guardar y seguir agregando productos\".\nImportación masiva: si ya tenés tu lista en Excel, el POS tiene el botón Excel para importar tu catálogo de una sola vez."
+    },
+    {
+      "id": "manual:c06:s01",
+      "chapter": 6,
+      "chapterTitle": "Bodegas",
+      "section": null,
+      "page": 17,
+      "figures": [
+        {
+          "n": 13,
+          "caption": "Existencias por bodega: consultá, actualizá y trasladá mercadería entre ubicaciones."
+        }
+      ],
+      "text": "Si tenés más de un local, una bodega central o un tramo en el mercado, acá controlás cuánto hay de cada producto en cada ubicación y movés mercadería entre ellas.\nAdministrar bodegas: creá y editá tus ubicaciones (Ej.: \"Principal\", \"Bodega 2\", \"Tramo mercado\"). Actualizar: refrescá las existencias. Trasladar (botón en cada fila): mové unidades de un producto de una bodega a otra. El traslado queda en el historial de Traslados registrados, así siempre sabés quién movió qué y cuándo. Buena práctica: cada compra que registrés pide la bodega de destino: así tu inventario por ubicación siempre está al día sin trabajo extra."
+    },
+    {
+      "id": "manual:c07:s01",
+      "chapter": 7,
+      "chapterTitle": "Balanzas y Etiquetas",
+      "section": null,
+      "page": 18,
+      "figures": [
+        {
+          "n": 14,
+          "caption": "Balanzas y etiquetas: perfiles de balanza, simulación de pesaje y conexión directa."
+        }
+      ],
+      "text": "Para negocios que venden por peso (carnes, quesos, granos a granel): conectá tu balanza electrónica para que el peso entre directo a la venta, y generá etiquetas con código de barras para tus productos.\nNuevo perfil: configurá cada balanza que uses en el negocio. Perfiles y versiones: administrá tus balanzas registradas. Simular 1.250 kg estable: probá el flujo de pesaje sin tener la balanza conectada, ideal para practicar. Negativo / Sobrecarga: simulá esos estados de la balanza para ver cómo responde el POS. Seleccionar puerto y leer / Desconectar: conexión directa con la balanza física (función experimental)."
+    },
+    {
+      "id": "manual:c08:s01",
+      "chapter": 8,
+      "chapterTitle": "Clientes",
+      "section": null,
+      "page": 19,
+      "figures": [
+        {
+          "n": 15,
+          "caption": "Clientes: tu cartera con filtros por estado de crédito."
+        }
+      ],
+      "text": "Tu cartera de clientes: quiénes son, cuánto te deben y cómo está su crédito. Un cliente bien registrado te permite vender al fiado con control."
+    },
+    {
+      "id": "manual:c08:s02",
+      "chapter": 8,
+      "chapterTitle": "Clientes",
+      "section": "Filtros de cartera",
+      "page": 19,
+      "figures": [],
+      "text": "Todos · Con deuda · Sobre límite · Bloqueados · Mayoreo · Inactivos Con estos filtros respondés en segundos preguntas como \"¿quién me debe?\", \"¿quién se pasó de su límite?\" o \"¿a quién tengo bloqueado?\"."
+    },
+    {
+      "id": "manual:c08:s03",
+      "chapter": 8,
+      "chapterTitle": "Clientes",
+      "section": "Crear un cliente",
+      "page": 19,
+      "figures": [
+        {
+          "n": 16,
+          "caption": "Nuevo cliente: alta rápida para que la venta y la cartera queden vinculadas desde el inicio."
+        },
+        {
+          "n": 17,
+          "caption": "Ficha del cliente: saldo, facturado, abonado, límite de crédito, riesgo y acciones rápidas (registrar abono, enviar estado por WhatsApp, editar ficha)."
+        }
+      ],
+      "text": "Tocá Nuevo y completá la ficha. Lo único obligatorio es el Nombre / Razón social; el resto suma control: DNI / RUC y Teléfono: para identificarlo y contactarlo (el teléfono te sirve para recordatorios de cobro por WhatsApp). Email y Dirección. Límite de crédito: el monto máximo que le fiás. La app te avisa si una venta lo supera. Vendedor asignado: a quién le corresponde la cuenta.\nAl guardar, la app te confirma: \"Este cliente queda listo para POS, fiado y cobranza.\" Su ficha muestra el saldo actual, lo facturado, lo abonado, su límite, su riesgo y su actividad reciente."
+    },
+    {
+      "id": "manual:c09:s01",
+      "chapter": 9,
+      "chapterTitle": "Fiado y Cobros",
+      "section": null,
+      "page": 22,
+      "figures": [
+        {
+          "n": 18,
+          "caption": "Cobranza: resumen por cobrar, vencido, por vencer y recaudado hoy. Con una cuenta seleccionada ves su estado completo."
+        }
+      ],
+      "text": "La cobranza es donde recuperás tu plata. El módulo te resume todo arriba y te deja trabajar cuenta por cuenta: \"Priorizá vencidos y dejá cada cuenta lista.\""
+    },
+    {
+      "id": "manual:c09:s02",
+      "chapter": 9,
+      "chapterTitle": "Fiado y Cobros",
+      "section": "El resumen",
+      "page": 22,
+      "figures": [],
+      "text": "POR COBRAR: total pendiente de todos tus clientes. VENCIDO: lo que ya pasó su fecha de pago: tu prioridad número uno. POR VENCER: lo que vence pronto. RECAUDADO HOY: lo que ya cobraste hoy. Con Cobrar hoy ves las cuentas que tocan hoy y con Todas ves la cartera completa."
+    },
+    {
+      "id": "manual:c09:s03",
+      "chapter": 9,
+      "chapterTitle": "Fiado y Cobros",
+      "section": "El estado de cuenta de un cliente",
+      "page": 22,
+      "figures": [],
+      "text": "Al elegir una cuenta ves todo lo necesario para cobrar con argumentos: FACTURADO / ABONADO / SALDO / VENCIDO: los cuatro números clave. Estado de cuenta: cada factura abierta con su fecha de emisión, su vencimiento y su saldo pendiente. Estado de cartera: uso del límite de crédito en porcentaje."
+    },
+    {
+      "id": "manual:c09:s04",
+      "chapter": 9,
+      "chapterTitle": "Fiado y Cobros",
+      "section": "Acciones de cobro",
+      "page": 23,
+      "figures": [
+        {
+          "n": 19,
+          "caption": "Detalle de la cuenta: Factura 5 por C$ 40.00, pendiente, con vencimiento a 30 días. Desde acá se abona o se recuerda por WhatsApp."
+        }
+      ],
+      "text": "Recordar por WhatsApp: enviále su estado de cuenta directo a su teléfono. Imprimir estado: para entregarlo en papel. Abonar: registrá un pago parcial o total sobre la factura. El saldo se actualiza al instante. Incobrable: marcá la cuenta que das por perdida, con registro.\nRutina recomendada: empezá el día en Cobrar hoy, pasá por los vencidos y usá Recordar por WhatsApp antes de salir a cobrar en persona. Lo que entra lo registrás con Abonar y tu Recaudado hoy sube solo."
+    },
+    {
+      "id": "manual:c10:s01",
+      "chapter": 10,
+      "chapterTitle": "Mi Plata y facturación DGI",
+      "section": null,
+      "page": 24,
+      "figures": [
+        {
+          "n": 20,
+          "caption": "Mi Plata: ganancia de hoy, capacidad del negocio, actividad y caja, más los accesos a facturación DGI."
+        }
+      ],
+      "text": "Mi Plata es tu tablero financiero: cuánto ganaste hoy, cuánta capacidad tiene tu negocio, y cómo se movió tu caja. Además, desde acá configurás tu facturación DGI."
+    },
+    {
+      "id": "manual:c10:s02",
+      "chapter": 10,
+      "chapterTitle": "Mi Plata y facturación DGI",
+      "section": "Configuración DGI",
+      "page": 24,
+      "figures": [
+        {
+          "n": 21,
+          "caption": "Facturación DGI: configurá tu régimen, RUC, dirección y número de autorización una sola vez."
+        }
+      ],
+      "text": "Tocá Configuración DGI para dejar tus datos fiscales listos. La ventana Facturación DGI te pide: Régimen fiscal: Régimen general (la factura calcula y desglosa el IVA) o Cuota fija (la factura no calcula ni muestra desglose de IVA). Ojo: el cambio aplica solo a ventas nuevas, no reescribe facturas anteriores. RUC de la empresa. Dirección física del local (sale en la factura). Teléfono (opcional). Resolución DGI (autorización): el número de autorización; este código aparece al pie de tus tickets para darles validez fiscal.\nImportante: revisá que tu RUC y tu número de autorización DGI estén correctos antes de facturar. Son los datos que le dan validez fiscal a tus comprobantes."
+    },
+    {
+      "id": "manual:c11:s01",
+      "chapter": 11,
+      "chapterTitle": "Caja y Arqueos",
+      "section": null,
+      "page": 26,
+      "figures": [
+        {
+          "n": 22,
+          "caption": "Cajas y Arqueos: cajas activas e historial de cierres."
+        }
+      ],
+      "text": "Controlá el efectivo de tu negocio: qué cajas están abiertas, quién las atiende y el historial de cierres.\nCajas Activas: qué cajas están abiertas ahora mismo. Historial de Cierres: cada cierre con sus totales: tu respaldo ante cualquier diferencia. Forzar Cierre: cierra una caja aunque el responsable no lo haya hecho (usalo con criterio: queda registrado). Actualizar: refrescá la información. En el POS también tenés Acciones de caja y Cerrar caja a mano para el cierre del turno sin salir de la venta."
+    },
+    {
+      "id": "manual:c12:s01",
+      "chapter": 12,
+      "chapterTitle": "Proformas, Entregas y Conteo de productos",
+      "section": "Proformas (cotizaciones)",
+      "page": 27,
+      "figures": [
+        {
+          "n": 23,
+          "caption": "Nueva proforma: buscás productos, los agregás a la cotización y la guardás o imprimís. Válida por 15 días."
+        }
+      ],
+      "text": "Cuando un cliente te pide precio antes de comprar, no lo anotés en un papel: hacé una proforma. Tiene tres vistas: + NUEVA, HISTORIAL y PEDIDOS WEB.\n1. Buscá los productos en \"Buscar productos para cotizar...\" y agregalos.\n2. En el Detalle de Cotización poné el Nombre del Cliente y su RUC / NIT (opcional).\n3. Revisá el Subtotal, el IVA (15%) y el Total.\n4. Guardá la proforma o Imprimila para el cliente. Queda válida por 15 días."
+    },
+    {
+      "id": "manual:c12:s02",
+      "chapter": 12,
+      "chapterTitle": "Proformas, Entregas y Conteo de productos",
+      "section": "Entregas",
+      "page": 27,
+      "figures": [
+        {
+          "n": 24,
+          "caption": "Entregas: torre de control logística con motorizados y estados del pedido."
+        }
+      ],
+      "text": "Si hacés delivery, la Torre de Control · Logística te organiza los pedidos: Agregar Motorizado: registrá a tus repartidores. Los pedidos avanzan por estados: Nuevos → Preparación → Ruta → Entregados, con el contador de cada etapa visible."
+    },
+    {
+      "id": "manual:c12:s03",
+      "chapter": 12,
+      "chapterTitle": "Proformas, Entregas y Conteo de productos",
+      "section": "Contar Productos",
+      "page": 28,
+      "figures": [
+        {
+          "n": 25,
+          "caption": "Contar existencias: inventarios físicos que se comparan contra el sistema."
+        }
+      ],
+      "text": "El inventario físico sin hojas de cálculo: tocá Nuevo conteo, contá lo que hay en el estante y la app compara contra lo que dice el sistema. Las diferencias quedan registradas para ajustar."
+    },
+    {
+      "id": "manual:c13:s01",
+      "chapter": 13,
+      "chapterTitle": "Compras, Órdenes y Proveedores",
+      "section": "Compras: recibir mercadería",
+      "page": 30,
+      "figures": [
+        {
+          "n": 26,
+          "caption": "Recibir mercadería: qué llegó, de qué proveedor, a qué bodega y con qué factura."
+        }
+      ],
+      "text": "Cada vez que te llega mercadería, registrala acá: es lo que mantiene tu inventario y tus costos al día. La pantalla tiene tres pestañas: Nueva Compra, Historial y Conciliación.\n1. En \"¿Qué llegó?\" buscá cada producto por nombre o SKU y agregá las cantidades recibidas.\n2. Elegí el Proveedor (si no existe, crealo con \"Crear proveedor\").\n3. Elegí la Bodega de destino: lo recibido ingresa a esa ubicación.\n4. Completá el # Factura Proveedor y la Fecha de la factura.\n5. Indicá si la compra Trae IVA (15%) o No trae IVA, y si fue al Contado o al Crédito.\nArriba siempre ves el Total de compras cargadas y el Saldo de compras cargadas (lo que aún debés a proveedores)."
+    },
+    {
+      "id": "manual:c13:s02",
+      "chapter": 13,
+      "chapterTitle": "Compras, Órdenes y Proveedores",
+      "section": "Órdenes de compra",
+      "page": 30,
+      "figures": [
+        {
+          "n": 27,
+          "caption": "Órdenes de Compra: el paso previo y ordenado antes de recibir mercadería."
+        }
+      ],
+      "text": "Antes de comprar, podés emitir una orden de compra formal a tu proveedor con el botón Nueva OC. Te sirve para pedir cotizaciones y dejar constancia de lo solicitado."
+    },
+    {
+      "id": "manual:c13:s03",
+      "chapter": 13,
+      "chapterTitle": "Compras, Órdenes y Proveedores",
+      "section": "Compras Inteligentes",
+      "page": 31,
+      "figures": [
+        {
+          "n": 28,
+          "caption": "Compras Inteligentes: sugerencias de reabastecimiento basadas en tus datos."
+        }
+      ],
+      "text": "La app analiza tus ventas y tu stock y te sugiere qué comprar y cuánto. Tocá Actualizar para regenerar las sugerencias con los datos más recientes."
+    },
+    {
+      "id": "manual:c13:s04",
+      "chapter": 13,
+      "chapterTitle": "Compras, Órdenes y Proveedores",
+      "section": "Proveedores",
+      "page": 32,
+      "figures": [
+        {
+          "n": 29,
+          "caption": "Proveedores: tu directorio para compras y cuentas por pagar."
+        }
+      ],
+      "text": "Tu directorio de proveedores con el botón Nuevo para registrarlos. Desde acá también los elegís al recibir mercadería."
+    },
+    {
+      "id": "manual:c14:s01",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": null,
+      "page": 34,
+      "figures": [
+        {
+          "n": 30,
+          "caption": "Contabilidad: \"Asientos manuales, libros oficiales y cierre de períodos.\" Once herramientas en una sola pantalla."
+        }
+      ],
+      "text": "Esto es lo que hace especial a Nortex: no necesitás ser contador ni pagarle a uno todos los meses para tener tu contabilidad al día. Cada venta que hacés en el POS genera automáticamente su asiento contable con partida doble: entra la plata a caja, se reconoce el ingreso, se separa el IVA por pagar y se descarga el costo del inventario. Vos solo revisás, ajustás lo necesario y cerrás el mes."
+    },
+    {
+      "id": "manual:c14:s02",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Las once herramientas",
+      "page": 34,
+      "figures": [],
+      "text": "Arriba de la pantalla tenés las pestañas. Las que ya viste en acción en este manual: Libro Diario y Balanza / Mayor: tus libros oficiales, alimentados solos por tus ventas. Asiento Manual: para los ajustes que el sistema no genera solo. Y el resto, que cubrimos abajo una por una: Cierre Mensual, Antigüedad, Flujo de Caja, Períodos, Retenciones, Activos Fijos, Renta Anual y Config Fiscal."
+    },
+    {
+      "id": "manual:c14:s03",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Libro Diario: el registro día a día",
+      "page": 34,
+      "figures": [
+        {
+          "n": 31,
+          "caption": "Libro Diario: cada venta genera su asiento automático con IVA desglosado y costo de ventas. Filtrás por mes y año."
+        }
+      ],
+      "text": "Cada movimiento de tu negocio queda registrado como un asiento: un conjunto de líneas donde lo que entra por un lado sale por el otro (partida doble). Los asientos que genera el sistema solos llevan la etiqueta AUTO. Mirá este ejemplo real de una venta de contado de C$ 18.00:\nLeamos el asiento #1 línea por línea, en cristiano: Cuenta 1.1.1 · Caja General\nDebe\nC$\nC$ 15.65\n2.1.2 · IVA por Pagar"
+    },
+    {
+      "id": "manual:c14:s04",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Qué significa",
+      "page": 35,
+      "figures": [],
+      "text": "La plata entró a tu caja.\n18.00\n4.1.1 · Ventas\n5.1.1 · Costo de Ventas\nHaber\nC$ 2.35 C$\nTu ingreso neto por la venta (sin impuesto). El impuesto que esa venta te obliga a pagarle al fisco. Lo que te costó la mercadería que vendiste.\n14.00\n1.1.4 · Inventario de\nC$\nMercancías\n14.00\nLa mercadería que salió de tu bodega.\nFijate: C$ 15.65 + C$ 2.35 = C$ 18.00. El IVA (15%) queda desglosado solo, y tu inventario se descarga solo. Eso es un contador trabajando por vos en cada ticket. Filtrá por período: los selectores de mes y año te dejan revisar cualquier mes cerrado sin mezclarlo con el actual."
+    },
+    {
+      "id": "manual:c14:s05",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Balanza / Mayor: el resumen que siempre cuadra",
+      "page": 36,
+      "figures": [
+        {
+          "n": 32,
+          "caption": "Balanza / Mayor: debe y haber siempre cuadrados. Tocá una cuenta para ver su mayor (todos sus movimientos)."
+        }
+      ],
+      "text": "La balanza de comprobación resume cada cuenta con su saldo inicial, lo que entró al debe, lo que salió al haber y el saldo final. Si tu contabilidad está sana, el total del debe y el total del haber son iguales: siempre cuadra.\nEn el ejemplo: Caja General acumula C$ 54.00 al debe, el IVA por pagar suma C$ 7.04, las ventas C$ 46.96, y el movimiento total da C$ 96.00 = C$ 96.00. Y si tocás cualquier cuenta (Ej.: \"Clic en una cuenta para ver su mayor\"), ves el detalle de todos sus movimientos uno por uno."
+    },
+    {
+      "id": "manual:c14:s06",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "El resto de las herramientas contables",
+      "page": 36,
+      "figures": [
+        {
+          "n": 33,
+          "caption": "Cierre Mensual: cada impuesto del mes con su vencimiento. Tocás \"Marcar declarado\" cuando lo pagás."
+        }
+      ],
+      "text": "Cierre Mensual: qué te falta declarar Esta es la pantalla que tu contador quisiera tener: \"¿Qué me falta declarar este mes?\" Nortex suma todo lo del mes y te muestra cada obligación con su fecha de vencimiento y su monto.\nTOTAL A DECLARAR y cuántas obligaciones siguen pendientes. IVA Neto (DGI/VET), Anticipo IR e IMI Alcaldía, cada uno con su fecha de vencimiento (15-oct) y su botón Marcar declarado. INSS (obrero-patronal) e INATEC 2%: si la nómina del mes no está calculada, aparecen en C$ 0.00 con el aviso \"Falta calcular la nómina del mes\" — el sistema te lo recuerda solo."
+    },
+    {
+      "id": "manual:c14:s07",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Antigüedad: quién te debe y desde cuándo",
+      "page": 37,
+      "figures": [
+        {
+          "n": 34,
+          "caption": "Antigüedad: tus cuentas por cobrar por tramos de días. Nada vencido, todo al día."
+        }
+      ],
+      "text": "El aging de tus cuentas: cuánto te deben (Por Cobrar) y cuánto debés (Por Pagar), clasificado por antigüedad.\nTOTAL POR COBRAR, VENCIDO y el detalle por tramos: Corriente, 1–30, 31–60, 61–90 y +90 días. En el ejemplo: Cliente Prueba te debe C$ 40.00 y está todo en corriente — nada vencido."
+    },
+    {
+      "id": "manual:c14:s08",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Flujo de Caja: la plata real",
+      "page": 38,
+      "figures": [
+        {
+          "n": 35,
+          "caption": "Flujo de Caja: entró, salió y el neto del mes, con el detalle por actividad."
+        }
+      ],
+      "text": "No es lo mismo vender que cobrar. El flujo de caja muestra la plata real que entra y sale, separada en actividades de operación, inversión y financiamiento.\nEn el ejemplo de septiembre: ENTRÓ C$ 72.00, SALIÓ C$ 0.00, FLUJO NETO +C$ 72.00, todo de actividades de operación (ventas de contado). Saldo inicial C$ 0.00 → saldo final C$ 72.00."
+    },
+    {
+      "id": "manual:c14:s09",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Asiento Manual: tus ajustes",
+      "page": 39,
+      "figures": [
+        {
+          "n": 36,
+          "caption": "Asiento Manual: el sistema no te deja registrar hasta que el debe y el haber cuadran."
+        }
+      ],
+      "text": "Para lo que el sistema no genera solo: provisiones, ajustes, saldos de apertura. Elegís el tipo (Ajuste manual o Saldos de apertura), describís el concepto y agregás las líneas cuenta / debe / haber.\nNo se puede descuadrar: el pie muestra el Descuadre en vivo y el botón Registrar solo se activa cuando debe = haber."
+    },
+    {
+      "id": "manual:c14:s10",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Períodos: congelá el mes",
+      "page": 40,
+      "figures": [
+        {
+          "n": 37,
+          "caption": "Períodos: cerrás el mes y las cifras fiscales quedan congeladas."
+        }
+      ],
+      "text": "Elegís mes y año y tocás Cerrar Sep 2026. \"Al cerrar un mes, las cifras de la DGI quedan congeladas\": nadie puede modificar para atrás lo ya declarado."
+    },
+    {
+      "id": "manual:c14:s11",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Retenciones: no pagués de más",
+      "page": 41,
+      "figures": [
+        {
+          "n": 38,
+          "caption": "Retenciones: registrás lo que te retuvieron y se descuenta de tu anticipo."
+        }
+      ],
+      "text": "\"Cuando una empresa o el Estado te retiene IR 2% / IMI 1% al pagarte, es crédito contra tu anticipo del mes. Registralo aquí para no pagar de más.\"\nLo ligás a una factura a crédito abierta, ponés fecha, tipo de retención (IR 2% (renta)), el cliente retenedor (Ej.: SINSA S.A.), la base facturada y el retenido se calcula automático. Guardás el N° de constancia y listo."
+    },
+    {
+      "id": "manual:c14:s12",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Activos Fijos: depreciación sola",
+      "page": 42,
+      "figures": [
+        {
+          "n": 39,
+          "caption": "Activos Fijos: registrás el bien una vez y la depreciación corre sola cada mes."
+        }
+      ],
+      "text": "Registrás tus bienes (camioneta, computadoras, mobiliario) y \"se deprecia solo cada mes (línea recta, Ley 822). La cuota baja la utilidad → menos IR.\"\nNombre (Ej.: Camioneta Hilux), tipo (COMPUTO y más), fecha de compra y costo. Con Correr depreciación del mes generás la cuota del período."
+    },
+    {
+      "id": "manual:c14:s13",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Renta Anual: tu IR-1 calculado",
+      "page": 43,
+      "figures": [
+        {
+          "n": 40,
+          "caption": "Renta Anual: tu IR-1 calculado con la regla del mayor entre IR 30% y Pago Mínimo Definitivo."
+        }
+      ],
+      "text": "La declaración anual de IR armada con tus números reales del año:\nConcepto\nMonto\nIngresos netos (sin IVA)\nC$ 97.39\n(-) Costo de ventas\nC$ 88.00\n= Utilidad fiscal\nC$ 9.39\nIR sobre renta (30%)\nC$ 2.82\nPago Mínimo Definitivo (1.0%)\nC$ 0.97\n= Impuesto del ejercicio (el mayor)\nC$ 2.82\nSALDO A PAGAR\nC$ 2.82\n\"IR-1 — vence el 31 de marzo de 2027. Revisar con el contador antes de presentar.\""
+    },
+    {
+      "id": "manual:c14:s14",
+      "chapter": 14,
+      "chapterTitle": "Contabilidad: tu contador en casa",
+      "section": "Config Fiscal: tus tasas",
+      "page": 44,
+      "figures": [
+        {
+          "n": 41,
+          "caption": "Config Fiscal: tus tasas y el tipo de cambio que usa el POS para pagos en dólares."
+        }
+      ],
+      "text": "\"Ajustá según tu contribuyente. Reemplazan los valores por defecto en la declaración mensual y la planilla.\"\nINSS Patronal %: 22.50 (21.5 si tenés menos de 50 empleados, 22.5 si tenés 50 o más). Anticipo IR / PMD %: 1.00 (de 1 a 3 según tu escala). IMI Alcaldía %: 1.00 (usualmente 1). Salario mínimo C$: el vigente de tu sector. Tipo de cambio (C$/US$): el que el POS usa para pagos en dólares (36.6234 en el ejemplo)."
+    },
+    {
+      "id": "manual:c15:s01",
+      "chapter": 15,
+      "chapterTitle": "Salud Financiera y Reportes",
+      "section": "Salud Financiera",
+      "page": 46,
+      "figures": [
+        {
+          "n": 42,
+          "caption": "Salud Financiera: Balance General y Estado de Resultados de tu negocio."
+        }
+      ],
+      "text": "El diagnóstico de tu negocio en dos estados clásicos: Balance General (qué tenés, qué debés y qué te queda) y Estado de Resultados (cuánto ganaste o perdiste en el período)."
+    },
+    {
+      "id": "manual:c15:s02",
+      "chapter": 15,
+      "chapterTitle": "Salud Financiera y Reportes",
+      "section": "Reportes",
+      "page": 46,
+      "figures": [
+        {
+          "n": 43,
+          "caption": "Reportes: el reporte integral y las salidas para tu contador y la DGI."
+        }
+      ],
+      "text": "El Reporte integral de ventas y salidas especializadas: Dashboard: vista ejecutiva. Contador DGI: lo que tu contador necesita para declarar. Historial Cajas: movimientos de caja por período. Contabilidad y Vendedores: reportes por área y por persona. Descargar DMI: el documento mensual de impuestos listo para descargar. Ver / imprimir documento: generá el reporte en formato imprimible."
+    },
+    {
+      "id": "manual:c16:s01",
+      "chapter": 16,
+      "chapterTitle": "Recursos Humanos: tu departamento de personal en casa",
+      "section": null,
+      "page": 48,
+      "figures": [],
+      "text": "La otra mitad de lo que hace especial a Nortex: tu personal gestionado como una empresa grande, sin departamento de RRHH. Contratación, salarios, comisiones, vacaciones, asistencia, adelantos, aguinaldo y la nómina calculada según las leyes de Nicaragua, todo en un solo módulo."
+    },
+    {
+      "id": "manual:c16:s02",
+      "chapter": 16,
+      "chapterTitle": "Recursos Humanos: tu departamento de personal en casa",
+      "section": "Directorio de Personal (Mi Equipo)",
+      "page": 48,
+      "figures": [
+        {
+          "n": 44,
+          "caption": "Directorio de Personal: cada colaborador con su ficha, su PIN y sus acciones."
+        }
+      ],
+      "text": "Tu plantilla completa en tarjetas. Cada colaborador muestra su rol, su PIN, su salario base, su comisión y sus días de vacaciones disponibles.\nNuevo Colaborador: da de alta a una persona en tu equipo. Pedir PIN para abrir la caja: si varios cajeros comparten una misma cuenta de usuario, activá esta opción: cada uno abre la caja con su PIN y \"un faltante del arqueo queda con dueño\". El PIN también se usa para marcar entrada y salida. PIN / Cambiar: asigná o cambiá el PIN de cada colaborador. Salario Base y Comisión: la base para calcular su pago. Vacaciones: días disponibles acumulados. Expediente: el archivo del colaborador.\nLiquidar: calculá su liquidación cuando se va."
+    },
+    {
+      "id": "manual:c16:s03",
+      "chapter": 16,
+      "chapterTitle": "Recursos Humanos: tu departamento de personal en casa",
+      "section": "Nómina Nica: la planilla calculada sola",
+      "page": 49,
+      "figures": [
+        {
+          "n": 45,
+          "caption": "Nómina Nica: elegís mes y año, calculás, y la app desglosa INSS e IR por colaborador."
+        }
+      ],
+      "text": "Acá brilla el módulo: elegís el mes y el año, tocás Calcular Nómina y la app genera la planilla según la Ley 185 (Código del Trabajo) y la Ley 539 (Seguridad Social).\nLa tabla genera por cada colaborador: Columna\nQué es\nBRUTO\nEl salario antes de deducciones.\nINSS 7%\nEl aporte del trabajador a la seguridad social.\nIR\nEl impuesto sobre la renta que corresponde retener.\nNETO\nLo que realmente recibe el colaborador: bruto menos deducciones.\nESTADO\nSi la nómina de esa persona está pendiente, calculada o pagada.\nACCIONES\nVer detalle, imprimir colilla, marcar como pagada.\nSin errores de cálculo: el INSS y el IR se calculan con las reglas vigentes. Vos solo verificás que los salarios base estén bien cargados en el Directorio."
+    },
+    {
+      "id": "manual:c16:s04",
+      "chapter": 16,
+      "chapterTitle": "Recursos Humanos: tu departamento de personal en casa",
+      "section": "El resto del departamento de personal",
+      "page": 50,
+      "figures": [
+        {
+          "n": 46,
+          "caption": "Tablero de RRHH: alertas legales y el costo real de tu planilla."
+        }
+      ],
+      "text": "Tablero de RRHH: tu gente en números \"Costo laboral real, ausentismo y rotación.\" El tablero te avisa lo que te puede meter en problemas antes de que pase:\nAlertas: colaborador sin contrato registrado (el MITRAB exige contrato escrito), sin número INSS (bloquea la declaración al SIE) o sin cédula registrada. Costo laboral real (incluye aportes + provisiones), nómina neta a pagar, aportes patronales (INSS + INATEC) y provisión del mes (aguinaldo + vacaciones + indemnización). Colaboradores activos, devengado total, ausentismo (días) y rotación anual."
+    },
+    {
+      "id": "manual:c16:s05",
+      "chapter": 16,
+      "chapterTitle": "Recursos Humanos: tu departamento de personal en casa",
+      "section": "Pasivo Laboral: lo que ya debés",
+      "page": 50,
+      "figures": [
+        {
+          "n": 47,
+          "caption": "Pasivo Laboral: tu deuda acumulada con cada colaborador, según la Ley 185."
+        }
+      ],
+      "text": "\"Reserva para Aguinaldo, Vacaciones e Indemnización (Ley 185)\". Aunque no lo hayás pagado todavía, ese dinero ya es una deuda con tu gente: el pasivo laboral te la muestra acumulada por colaborador.\nPor cada persona: antigüedad (meses), vacaciones, aguinaldo, indemnización y el total del pasivo. Si está controlado, la app te lo dice: \"Saludable: Pasivo controlado.\""
+    },
+    {
+      "id": "manual:c16:s06",
+      "chapter": 16,
+      "chapterTitle": "Recursos Humanos: tu departamento de personal en casa",
+      "section": "Aguinaldo: el treceavo sin sustos",
+      "page": 51,
+      "figures": [
+        {
+          "n": 48,
+          "caption": "Aguinaldo: calculado por días trabajados, con la fecha límite legal a la vista."
+        }
+      ],
+      "text": "\"Aguinaldo (Treceavo Mes). Dic 2025 – Nov 2026 · Exento de INSS e IR (Arts. 93-95)\". Tocás Correr aguinaldo 2026 y la app calcula el treceavo de cada colaborador según sus días trabajados.\nVes el total del aguinaldo, la fecha límite legal (10 de diciembre) y por colaborador: días, salario base, monto, estado y comprobante."
+    },
+    {
+      "id": "manual:c16:s07",
+      "chapter": 16,
+      "chapterTitle": "Recursos Humanos: tu departamento de personal en casa",
+      "section": "Asistencia y Turnos: marcaje con PIN",
+      "page": 52,
+      "figures": [
+        {
+          "n": 49,
+          "caption": "Asistencia y Turnos: feriados nacionales cargados y los tuyos propios."
+        }
+      ],
+      "text": "\"Marcaje por PIN y calendario de feriados (los trabajados se pagan al doble, Art. 68).\"\nCada colaborador marca entrada y salida con el botón CLOCK IN/OUT del menú principal usando su PIN. Las horas extra y los feriados trabajados se suman a la nómina del mes automáticamente. El calendario de feriados ya trae los nacionales (Año Nuevo, Semana Santa, Día del Trabajo, Independencia, Purísima, Navidad…) y podés agregar los locales (Ej.: Fiestas patronales)."
+    },
+    {
+      "id": "manual:c16:s08",
+      "chapter": 16,
+      "chapterTitle": "Recursos Humanos: tu departamento de personal en casa",
+      "section": "Adelantos (Lending): liquidez sin descapitalizarte",
+      "page": 53,
+      "figures": [
+        {
+          "n": 50,
+          "caption": "Adelantos: Nortex te presta la liquidez y las cuotas se descuentan solas en la quincena."
+        }
+      ],
+      "text": "Micro-Préstamos Nortex — \"Adelantos de salario (Capital Financiero Integrado)\". Cuando un empleado te pide adelanto y no tenés caja para dárselo:\n\"Nortex te presta liquidez instantánea para que apruebes los adelantos de tus empleados sin descapitalizar el negocio. Las cuotas se deducen automáticamente en la quincena.\" Ves solicitante, fecha, motivo, monto, costo Nortex (fee) y estado."
+    },
+    {
+      "id": "manual:c16:s09",
+      "chapter": 16,
+      "chapterTitle": "Recursos Humanos: tu departamento de personal en casa",
+      "section": "Gestión de Vacaciones y ausencias",
+      "page": 54,
+      "figures": [
+        {
+          "n": 51,
+          "caption": "Gestión de Ausencias: registrás el permiso y la nómina lo descuenta sola."
+        }
+      ],
+      "text": "\"Vacaciones, Incapacidades INSS y Permisos. Los permisos sin goce descuentan días de la nómina del mes.\"\nElegís el colaborador, el tipo de ausencia, las fechas desde/hasta, una justificación opcional y Registrar. La tabla guarda cada solicitud con su estado."
+    },
+    {
+      "id": "manual:c17:s01",
+      "chapter": 17,
+      "chapterTitle": "Mi Espacio y Mi Equipo",
+      "section": "Mi Espacio (para colaboradores)",
+      "page": 56,
+      "figures": [
+        {
+          "n": 52,
+          "caption": "Mi Espacio: colillas, solicitud de ausencias y adelantos para el colaborador."
+        }
+      ],
+      "text": "Si trabajás en un negocio que usa Nortex, acá ves tus colillas de pago y podés solicitar ausencias y adelantos sin ir a preguntar a la oficina."
+    },
+    {
+      "id": "manual:c17:s02",
+      "chapter": 17,
+      "chapterTitle": "Mi Espacio y Mi Equipo",
+      "section": "Mi Equipo (accesos al sistema)",
+      "page": 56,
+      "figures": [
+        {
+          "n": 53,
+          "caption": "Mi Equipo: miembros y permisos por rol."
+        }
+      ],
+      "text": "Administrá quién entra a tu Nortex: Miembros Activos, Permisos por Rol (qué puede ver y hacer cada rol) e Invitar Miembro para sumar gente."
+    },
+    {
+      "id": "manual:c18:s01",
+      "chapter": 18,
+      "chapterTitle": "Auditoría",
+      "section": null,
+      "page": 58,
+      "figures": [
+        {
+          "n": 54,
+          "caption": "Auditoría: anomalías, Kardex Pro, anulaciones y descuentos bajo control."
+        },
+        {
+          "n": 55,
+          "caption": "Kardex Pro: cuando no hay movimientos sospechosos, lo ves claro: \"Todo en orden\"."
+        }
+      ],
+      "text": "El vigilante de tu negocio: \"Detección de anomalías — últimos 30 días.\" Cinco lentes para revisar que todo esté en orden: Exportaciones DGI: tus envíos y reportes fiscales. Alertas: movimientos que llamaron la atención del sistema. Kardex Pro: el registro detallado de movimientos de inventario para auditar entradas y salidas. Anulaciones: qué comprobantes se anularon y quién lo autorizó. Descuentos: qué descuentos se aplicaron en las ventas.\nHábito mensual: pasá por Auditoría antes de tu Cierre Mensual en Contabilidad. Si hay alertas, las resolvés con el mes todavía abierto."
+    },
+    {
+      "id": "manual:c19:s01",
+      "chapter": 19,
+      "chapterTitle": "Mi Plan de Nortex",
+      "section": null,
+      "page": 60,
+      "figures": [
+        {
+          "n": 56,
+          "caption": "Mi Plan de Nortex: estado de tu suscripción y medios de pago disponibles."
+        }
+      ],
+      "text": "Acá ves tu suscripción y cómo pagarla. Las opciones mostradas son Tarjeta (Stripe) y Depósito / Transferencia."
+    },
+    {
+      "id": "manual:c20:s01",
+      "chapter": 20,
+      "chapterTitle": "Atajos de teclado y glosario",
+      "section": "Atajos que te ahorran tiempo",
+      "page": 61,
+      "figures": [],
+      "text": "Atajo\nDónde\nQué hace\nF9\nPOS\nCobra el ticket en efectivo\nF2 / ENTER\nFormularios\nGuarda (Ej.: nuevo producto)"
+    },
+    {
+      "id": "manual:c20:s02",
+      "chapter": 20,
+      "chapterTitle": "Atajos de teclado y glosario",
+      "section": "Glosario rápido",
+      "page": 61,
+      "figures": [],
+      "text": "Término\nQué significa en Nortex\nTicket\nLa venta en curso en el POS antes de cobrarla\nAparcar\nGuardar un ticket a medio armar para atender al siguiente cliente\nFiado\nVenta a crédito: genera una cuenta por cobrar al cliente\nAbono\nPago parcial o total sobre una cuenta por cobrar\nArqueo\nConteo y cierre de caja del turno\nProforma\nCotización válida por 15 días, sin efecto contable\nKardex\nRegistro de entradas y salidas de inventario por producto\nAsiento AUTO\nAsiento contable generado automáticamente por el sistema (Ej.: cada venta)\nDMI\nDocumento mensual de impuestos descargable desde Reportes\nCuota fija\nRégimen fiscal donde la factura no desglosa IVA\nRégimen general\nRégimen fiscal donde la factura calcula y desglosa el IVA"
+    }
+  ]
+}
